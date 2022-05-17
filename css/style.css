@@ -562,21 +562,5 @@ ul.scratch-header-menu a:hover {
     opacity: 0.3;
 }
 .scratch-fluid-background-image-block .scratch-fluid-background-image-block-content {
-    position: absolute;
-    max-width: calc(100% - 600px);
-}
-@media only screen and (max-width: 1440px) {
-    .scratch-fluid-background-image-block .scratch-fluid-background-image-block-content {
-        max-width: calc(100% - 300px);
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .scratch-fluid-background-image-block .scratch-fluid-background-image-block-content {
-        max-width: calc(100% - 150px);
-    }
-}
-@media only screen and (max-width: 768px) {
-    .scratch-fluid-background-image-block .scratch-fluid-background-image-block-content {
-        max-width: calc(100% - 60px);
-    }
+    z-index: 1;
 }
